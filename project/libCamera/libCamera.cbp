@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libCamera" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/libCamera" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DBUILD_DLL" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/libCamera" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../libusb_src/config.h" />
+		<Unit filename="../../libusb_src/core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/descriptor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/hotplug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/hotplug.h" />
+		<Unit filename="../../libusb_src/io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/libusb.h" />
+		<Unit filename="../../libusb_src/libusbi.h" />
+		<Unit filename="../../libusb_src/poll_windows.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/poll_windows.h" />
+		<Unit filename="../../libusb_src/strerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/threads_posix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/threads_posix.h" />
+		<Unit filename="../../libusb_src/version.h" />
+		<Unit filename="../../libusb_src/version_nano.h" />
+		<Unit filename="../../libusb_src/windows_common.h" />
+		<Unit filename="../../libusb_src/windows_nt_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/windows_nt_common.h" />
+		<Unit filename="../../libusb_src/windows_nt_shared_types.h" />
+		<Unit filename="../../libusb_src/windows_usbdk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/windows_usbdk.h" />
+		<Unit filename="../../libusb_src/windows_winusb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libusb_src/windows_winusb.h" />
+		<Unit filename="../../libuvc_src/ctrl-gen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/ctrl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/device.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/diag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/frame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/jconfig.h" />
+		<Unit filename="../../libuvc_src/jmorecfg.h" />
+		<Unit filename="../../libuvc_src/jpeglib.h" />
+		<Unit filename="../../libuvc_src/libusb.h" />
+		<Unit filename="../../libuvc_src/libuvc.h" />
+		<Unit filename="../../libuvc_src/libuvc_config.h" />
+		<Unit filename="../../libuvc_src/libuvc_internal.h" />
+		<Unit filename="../../libuvc_src/misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../libuvc_src/utlist.h" />
+		<Unit filename="../../libuvccamera_src/PropertyRange.h" />
+		<Unit filename="../../libuvccamera_src/UVC4Linux.cpp" />
+		<Unit filename="../../libuvccamera_src/UVC4Linux.h" />
+		<Unit filename="../../libuvccamera_src/libusb.h" />
+		<Unit filename="../../libuvccamera_src/libuvc.h" />
+		<Unit filename="../../libuvccamera_src/libuvc_config.h" />
+		<Unit filename="../../libuvccamera_src/libuvc_internal.h" />
+		<Unit filename="../../libuvccamera_src/uvcCamera.cpp" />
+		<Unit filename="../../libuvccamera_src/uvcCamera.h" />
+		<Unit filename="../../libuvccamera_src/uvcCapture.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
